@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE transactions SYSTEM "transactions_sample.dtd">
+<transactions>
+	<transaction>
+		<transaction_date>01/11/2019</transaction_date>
+		<giftShop>1</giftShop>
+		<transactionID>BjYAtd7lmEOlQUVy</transactionID>
+		<value currency="gbp">61.33</value>
+		<customer>
+			<prefix>Mr </prefix>
+			<lastName>Arnold</lastName>
+			<givenName>Jaydon</givenName>
+			<addressID>551640</addressID>
+			<customerID>8BLOJZWL</customerID>
+		</customer>
+	</transaction>
+	<transaction>
+		<transaction_date>01/11/2019</transaction_date>
+		<giftShop>2</giftShop>
+		<transactionID>aQ27lMvfnlzY4mkx</transactionID>
+		<value currency="gbp">54.21</value>
+		<customer>
+			<lastName>Briain</lastName>
+			<givenName>Hailie</givenName>
+			<addressID>95280</addressID>
+			<customerID>DR18OCFI</customerID>
+		</customer>
+	</transaction>
+	<transaction>
+		<transaction_date>01/11/2019</transaction_date>
+		<giftShop>3</giftShop>
+		<transactionID>TNSypVVOi8LjTeC2</transactionID>
+		<value currency="gbp">30.1</value>
+		<customer>
+			<prefix>Mr </prefix>
+			<lastName>Bloodworth</lastName>
+			<givenName>Clancy</givenName>
+			<addressID>313739</addressID>
+			<customerID>WLVPLUMM</customerID>
+		</customer>
+	</transaction>
+</transactions>

@@ -1,0 +1,13 @@
+<!ELEMENT (transaction)>
+<!ELEMENT transaction (transaction_date, giftShop, transactionID, value, customer)>
+<!ELEMENT transactiondate (#PCDATA)>
+<!ELEMENT giftShop (#PCDATA)>
+<!ELEMENT transactionID (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ATTLIST value currency (#PCDATA) #REQUIRED>
+<!ELEMENT customer (prefix, lastName, givenName, addressID, customerID)>
+<!ELEMENT prefix (#PCDATA)>
+<!ELEMENT givenName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT addressID (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
